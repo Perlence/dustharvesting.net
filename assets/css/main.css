@@ -1,3 +1,23 @@
 body {
-  padding-top: 50px;
 }
+
+ul, ol {
+  padding-left: 0;
+  margin-left: 30px;
+}
+
+.list-inline {
+  margin-left: 0;
+}
+
+.time {
+  padding-left: 0.5em;
+}
+
+.justify {
+  text-align: justify;
+}
+
+/*.img-thumbnail {
+  margin: 0 1em;
+}*/
