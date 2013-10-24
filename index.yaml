@@ -1,0 +1,144 @@
+---
+profile_links:
+    Twitter: https://twitter.com/dustharvesting
+    YouTube: http://youtube.com/user/dustharvesting
+    Bandcamp: http://dustharvesting.bandcamp.com
+    Jamendo: http://www.jamendo.com/en/artist/339709/dust-harvesting
+
+albums:
+    -   title: Unquintessence
+        id: unquintessence
+        released: 2013-07-20
+        personnel:
+            Abakumov Sviatoslav: guitars, bass, vocals, programming
+            Jeronim Calavera: guitars
+        links:
+            Jamendo: http://www.jamendo.com/en/list/a124246/unquintessence
+            Bandcamp: http://dustharvesting.bandcamp.com/album/unquintessence
+        downloads:
+            GP5: https://bitbucket.org/Perlence/unquintessence
+        tracks:
+            Stasis: "2:30"
+            The Greatest Time: "4:47"
+            Confluent: "6:36"
+            Low Level: "7:01"
+            Pits: "6:15"
+            Council: "5:24"
+            Wailing Mourn: "3:39"
+            Haunted: "5:22"
+            Ego Anthem: "3:36"
+            Vulture, Warming Throne: "3:54"
+            Golden Bridges: "7:37"
+            Glasshouse: "3:25"
+            Lone Engineer: "4:44"
+            Year of Empty Rooms: "3:35"
+            Reaping Vestiges: "3:57"
+
+    -   title: Для рисования
+        id: dlia-risovaniya
+        description: >
+            <em>For Drawing</em> is second longplay, brought to you by Dust Harvesting, filled with dreamy passages. 
+            This time, progressive rock takes the eclecticism of fusion with jazz and dissonant bursts. Take your time to enter this elusive soundscape.
+        released: 2009-10-06
+        personnel:
+            Abakumov Sviatoslav: guitars, bass, programming
+        links:
+            Jamendo: http://www.jamendo.com/en/list/a53306/dlja-risovanija
+            Bandcamp: http://dustharvesting.bandcamp.com/album/-
+        downloads:
+            GP5: http://dustharvesting.net/music/chapter5/Dust Harvesting - Dlia risovaniya-gp5.7z
+            Stems: http://dustharvesting.net/music/chapter5/Dust Harvesting - Dlia risovaniya-stems.7z
+        tracks:
+            Соединяю: "1:08"
+            Йинн: "2:28"
+            Я не верю в русалок: "7:39"
+            Почти быстро: "3:36"
+            Снова ветер осенний: "3:30"
+            Старое название: "5:33"
+            Божьих мельниц: "3:57"
+            Да горошек мой: "3:25"
+            Уже рядом: "3:11"
+            Мне дышать: "5:51"
+            Смешной итог: "1:50"
+
+    -   title: Озеро Изфикции (Instrumental)
+        id: ozero-izfiktsiyi-instrumental
+        description: >
+            After some time passed Dust Harvesting realized that he couldn't bare to listen to the record anymore. 
+            In the search of the source of irritation he found out that the lyrics give him no rest. 
+            So here it is: the same vibe, feel and groove sans the voice.
+        released: 2008-11-15
+        personnel:
+            Abakumov Sviatoslav: guitars, bass, programming
+        links:
+            Jamendo: http://www.jamendo.com/en/list/a74174/ozjero-izfiktsii
+            Bandcamp: http://dustharvesting.bandcamp.com/album/--2
+        downloads:
+            GP5: http://dustharvesting.net/music/chapter4/Dust Harvesting - Ozero Izfiktsii-gp5.7z
+            Stems: http://dustharvesting.net/music/chapter4/Dust Harvesting - Ozero Izfiktsii-stems.7z
+        tracks:
+            Нить: "2:41"
+            Средний сын Марса от Плутона: "4:15"
+            Бабушки-клаустрофобы: "8:18"
+            Где радость: "3:49"
+            Адские бананы: "10:26"
+            Послевкусье: "1:45"
+
+    -   title: Озеро Изфикции
+        id: ozero-izfiktsiyi
+        description: >
+            <em>Lake Offiction</em> is the first full-length album of Dust Harvesting, full of bluesy romantic vibe, if not sweetly depressive, where feel of devotion meets groove of heavy riffs mixed with cathartic solos. 
+            A conceptual piece of how lonely one can be amongst and before.
+        released: 2008-05-02
+        personnel:
+            Abakumov Sviatoslav: guitars, bass, vocals, programming
+        links:
+            Jamendo: http://www.jamendo.com/en/list/a74174/ozjero-izfiktsii
+            Bandcamp: http://dustharvesting.bandcamp.com/album/--2
+        downloads:
+            GP5: http://dustharvesting.net/music/chapter4/Dust Harvesting - Ozero Izfiktsii-gp5.7z
+            Stems: http://dustharvesting.net/music/chapter4/Dust Harvesting - Ozero Izfiktsii-stems.7z
+        tracks:
+            Нить: "2:41"
+            Средний сын Марса от Плутона: "4:15"
+            Бабушки-клаустрофобы: "8:18"
+            Где радость: "3:49"
+            Адские бананы: "10:26"
+            Послевкусье: "1:45"
+
+    -   title: Seven BSODs. Inner Oww
+        id: seven-bsods-inner-oww
+        released: 2008-02-11
+        personnel:
+            Abakumov Sviatoslav: guitars, bass, vocals, programming
+        links:
+            Jamendo: http://www.jamendo.com/en/list/a53304/seven-bsods.-inner-oww
+            Bandcamp: http://dustharvesting.bandcamp.com/album/seven-bsods-inner-oww-ep
+        downloads:
+            GP5: http://dustharvesting.net/music/chapter3/Dust Harvesting - Seven BSODs. Inner Oww-gp5.7z
+        tracks:
+            Jyeh Carlo: "7:29"
+            Маленький Горолдж: "5:21"
+            Eleven Beasts: "3:02"
+            To Little Pine: "2:11"
+
+    -   title: Seasons for Chaotic Contraction
+        id: seasons-for-chaotic-contraction
+        released: 2007-08-16
+        personnel:
+            Abakumov Sviatoslav: guitars, bass, vocals, programming
+        links:
+            Jamendo: http://www.jamendo.com/en/list/a53318/seasons-for-chaotic-contraction
+            Bandcamp: http://dustharvesting.bandcamp.com/album/seasons-for-chaotic-contraction-ep
+        downloads:
+            GP5: http://dustharvesting.net/music/chapter1-2/Dust Harvesting - Seasons for Chaotic Contraction-gp5.7z
+        tracks:
+            The Groove Experiment: "0:58"
+            Behind the Time: "3:22"
+            The Frag: "2:13"
+            Thrill: "3:14"
+            In Sanity: "1:31"
+            The New Life: "5:25"
+            Broken Build: "0:44"
+            Blunderbuss: "4:17"
+            Silence: "5:12"
