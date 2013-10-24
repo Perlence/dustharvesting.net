@@ -3,6 +3,10 @@ ul, ol {
   margin-left: 30px;
 }
 
+.jumbotron .btn {
+  margin: 5px 0;
+}
+
 .tracklist {
   margin-top: 0;
 }
