@@ -54,6 +54,7 @@ for name in dir(helpers):
     if name.startswith('filter_'):
         env.filters[name.replace('filter_', '')] = getattr(helpers, name)
 
+# Fill every template file with corresponding data
 for template_name in os.listdir(template_dir):
     root, ext = os.path.splitext(template_name)
     data_name = root + '.yaml'
