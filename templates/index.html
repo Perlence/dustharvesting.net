@@ -69,11 +69,13 @@
       <div class="row">
         <div class="col-sm-6 col-md-4">
           <a data-toggle="modal" href="#{{ album.id }}-cover">
-            <img class="img-thumbnail" src="gfx/{{ album.id }}.jpg" alt="{{ album.title }}"/>
+            <img class="img-thumbnail" src="gfx/{{ album.id }}-sm.jpg" alt="{{ album.title }}"/>
           </a>
           <div class="modal fade" id="{{ album.id }}-cover" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog text-center">
-              <img class="img-thumbnail" src="gfx/{{ album.id }}-big.jpg" alt="{{ album.title }}"/>
+              <a href="gfx/{{ album.id }}.jpg">
+                <img class="img-thumbnail" src="gfx/{{ album.id }}.jpg" alt="{{ album.title }}"/>
+              </a>
             </div>
           </div>
           <ul class="download list-inline">
