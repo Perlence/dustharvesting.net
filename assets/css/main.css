@@ -27,3 +27,12 @@ ul, ol {
        -o-hyphens: auto;
           hyphens: auto;
 }
+
+.download {
+  margin: 5px 0;
+}
+
+.dropdown-menu li {
+  font-size: 15px;
+  line-height: 1.5;
+}
