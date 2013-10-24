@@ -6,6 +6,8 @@ import yaml
 import yaml.constructor
 from jinja2 import Environment, FileSystemLoader
 
+import helpers
+
 class OrderedDictLoader(yaml.Loader):
     '''A YAML loader that loads mappings into ordered dictionaries.
     '''
@@ -46,11 +48,18 @@ template_dir = 'templates'
 env = Environment(loader=FileSystemLoader(template_dir))
 env.trim_blocks = True
 env.lstrip_blocks = True
+
+# Set functions starting with 'filter_' as jinja2 filters
+for name in dir(helpers):
+    if name.startswith('filter_'):
+        env.filters[name.replace('filter_', '')] = getattr(helpers, name)
+
 for template_name in os.listdir(template_dir):
     root, ext = os.path.splitext(template_name)
     data_name = root + '.yaml'
     template = env.get_template(template_name)
     data = yaml.load(open(data_name), OrderedDictLoader)
+    data['helpers'] = helpers
     output = template.render(**data)
     with codecs.open(template_name, 'w', encoding='utf-8') as fp:
         fp.write(output)

@@ -18,21 +18,21 @@ albums:
         downloads:
             GP5: https://bitbucket.org/Perlence/unquintessence
         tracks:
-            Stasis: "2:30"
-            The Greatest Time: "4:47"
-            Confluent: "6:36"
-            Low Level: "7:01"
-            Pits: "6:15"
-            Council: "5:24"
-            Wailing Mourn: "3:39"
-            Haunted: "5:22"
-            Ego Anthem: "3:36"
-            Vulture, Warming Throne: "3:54"
-            Golden Bridges: "7:37"
-            Glasshouse: "3:25"
-            Lone Engineer: "4:44"
-            Year of Empty Rooms: "3:35"
-            Reaping Vestiges: "3:57"
+            Stasis: [2,30]
+            The Greatest Time: [4,47]
+            Confluent: [6,36]
+            Low Level: [7,1]
+            Pits: [6,15]
+            Council: [5,24]
+            Wailing Mourn: [3,39]
+            Haunted: [5,22]
+            Ego Anthem: [3,36]
+            Vulture, Warming Throne: [3,54]
+            Golden Bridges: [7,37]
+            Glasshouse: [3,25]
+            Lone Engineer: [4,44]
+            Year of Empty Rooms: [3,35]
+            Reaping Vestiges: [3,57]
 
     -   title: Для рисования
         id: dlia-risovaniya
@@ -49,17 +49,17 @@ albums:
             GP5: http://dustharvesting.net/music/chapter5/Dust Harvesting - Dlia risovaniya-gp5.7z
             Stems: http://dustharvesting.net/music/chapter5/Dust Harvesting - Dlia risovaniya-stems.7z
         tracks:
-            Соединяю: "1:08"
-            Йинн: "2:28"
-            Я не верю в русалок: "7:39"
-            Почти быстро: "3:36"
-            Снова ветер осенний: "3:30"
-            Старое название: "5:33"
-            Божьих мельниц: "3:57"
-            Да горошек мой: "3:25"
-            Уже рядом: "3:11"
-            Мне дышать: "5:51"
-            Смешной итог: "1:50"
+            Соединяю: [1,8]
+            Йинн: [2,28]
+            Я не верю в русалок: [7,39]
+            Почти быстро: [3,36]
+            Снова ветер осенний: [3,30]
+            Старое название: [5,33]
+            Божьих мельниц: [3,57]
+            Да горошек мой: [3,25]
+            Уже рядом: [3,11]
+            Мне дышать: [5,51]
+            Смешной итог: [1,50]
 
     -   title: Озеро Изфикции (Instrumental)
         id: ozero-izfiktsiyi-instrumental
@@ -77,12 +77,12 @@ albums:
             GP5: http://dustharvesting.net/music/chapter4/Dust Harvesting - Ozero Izfiktsii-gp5.7z
             Stems: http://dustharvesting.net/music/chapter4/Dust Harvesting - Ozero Izfiktsii-stems.7z
         tracks:
-            Нить: "2:41"
-            Средний сын Марса от Плутона: "4:15"
-            Бабушки-клаустрофобы: "8:18"
-            Где радость: "3:49"
-            Адские бананы: "10:26"
-            Послевкусье: "1:45"
+            Нить: [2,41]
+            Средний сын Марса от Плутона: [4,15]
+            Бабушки-клаустрофобы: [8,18]
+            Где радость: [3,49]
+            Адские бананы: [10,26]
+            Послевкусье: [1,45]
 
     -   title: Озеро Изфикции
         id: ozero-izfiktsiyi
@@ -99,12 +99,12 @@ albums:
             GP5: http://dustharvesting.net/music/chapter4/Dust Harvesting - Ozero Izfiktsii-gp5.7z
             Stems: http://dustharvesting.net/music/chapter4/Dust Harvesting - Ozero Izfiktsii-stems.7z
         tracks:
-            Нить: "2:41"
-            Средний сын Марса от Плутона: "4:15"
-            Бабушки-клаустрофобы: "8:18"
-            Где радость: "3:49"
-            Адские бананы: "10:26"
-            Послевкусье: "1:45"
+            Нить: [2,41]
+            Средний сын Марса от Плутона: [4,15]
+            Бабушки-клаустрофобы: [8,18]
+            Где радость: [3,49]
+            Адские бананы: [10,26]
+            Послевкусье: [1,45]
 
     -   title: Seven BSODs. Inner Oww
         id: seven-bsods-inner-oww
@@ -117,10 +117,10 @@ albums:
         downloads:
             GP5: http://dustharvesting.net/music/chapter3/Dust Harvesting - Seven BSODs. Inner Oww-gp5.7z
         tracks:
-            Jyeh Carlo: "7:29"
-            Маленький Горолдж: "5:21"
-            Eleven Beasts: "3:02"
-            To Little Pine: "2:11"
+            Jyeh Carlo: [7,29]
+            Маленький Горолдж: [5,21]
+            Eleven Beasts: [3,2]
+            To Little Pine: [2,11]
 
     -   title: Seasons for Chaotic Contraction
         id: seasons-for-chaotic-contraction
@@ -133,12 +133,12 @@ albums:
         downloads:
             GP5: http://dustharvesting.net/music/chapter1-2/Dust Harvesting - Seasons for Chaotic Contraction-gp5.7z
         tracks:
-            The Groove Experiment: "0:58"
-            Behind the Time: "3:22"
-            The Frag: "2:13"
-            Thrill: "3:14"
-            In Sanity: "1:31"
-            The New Life: "5:25"
-            Broken Build: "0:44"
-            Blunderbuss: "4:17"
-            Silence: "5:12"
+            The Groove Experiment: [0,58]
+            Behind the Time: [3,22]
+            The Frag: [2,13]
+            Thrill: [3,14]
+            In Sanity: [1,31]
+            The New Life: [5,25]
+            Broken Build: [0,44]
+            Blunderbuss: [4,17]
+            Silence: [5,12]
