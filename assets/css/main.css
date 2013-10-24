@@ -6,6 +6,10 @@ ul, ol {
   margin-left: 30px;
 }
 
+.tracklist {
+  margin-top: 0;
+}
+
 .list-inline {
   margin-left: 0;
 }
@@ -14,8 +18,13 @@ ul, ol {
   padding-left: 0.5em;
 }
 
-.justify {
+.text-justify {
   text-align: justify;
+  -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+      -ms-hyphens: auto;
+       -o-hyphens: auto;
+          hyphens: auto;
 }
 
 /*.img-thumbnail {
