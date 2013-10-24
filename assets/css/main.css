@@ -32,6 +32,10 @@ ul, ol {
   margin: 5px 0;
 }
 
+.download li {
+  padding: 0;
+}
+
 .dropdown-menu li {
   font-size: 15px;
   line-height: 1.5;
