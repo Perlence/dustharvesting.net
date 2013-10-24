@@ -1,0 +1,87 @@
+.btn-twitter {
+  color: #ffffff;
+  background-color: #1c95d0;
+  border-color: #1c95d0;
+}
+
+.btn-twitter:hover,
+.btn-twitter:focus,
+.btn-twitter:active,
+.btn-twitter.active,
+.open .dropdown-toggle.btn-twitter {
+  color: #ffffff;
+  background-color: #0f80b8;
+  border-color: #0e77ab;
+}
+
+.btn-twitter:active,
+.btn-twitter.active,
+.open .dropdown-toggle.btn-twitter {
+  background-image: none;
+}
+
+.btn-youtube {
+  color: #ffffff;
+  background-color: #cc181e;
+  border-color: #cc181e;
+}
+
+.btn-youtube:hover,
+.btn-youtube:focus,
+.btn-youtube:active,
+.btn-youtube.active,
+.open .dropdown-toggle.btn-youtube {
+  color: #ffffff;
+  background-color: #b30c12;
+  border-color: #a60c11;
+}
+
+.btn-youtube:active,
+.btn-youtube.active,
+.open .dropdown-toggle.btn-youtube {
+  background-image: none;
+}
+
+.btn-bandcamp {
+  color: #ffffff;
+  background-color: #639baa;
+  border-color: #639baa;
+}
+
+.btn-bandcamp:hover,
+.btn-bandcamp:focus,
+.btn-bandcamp:active,
+.btn-bandcamp.active,
+.open .dropdown-toggle.btn-bandcamp {
+  color: #ffffff;
+  background-color: #4d8391;
+  border-color: #467785;
+}
+
+.btn-bandcamp:active,
+.btn-bandcamp.active,
+.open .dropdown-toggle.btn-bandcamp {
+  background-image: none;
+}
+
+.btn-jamendo {
+  color: #ffffff;
+  background-color: #703070;
+  border-color: #703070;
+}
+
+.btn-jamendo:hover,
+.btn-jamendo:focus,
+.btn-jamendo:active,
+.btn-jamendo.active,
+.open .dropdown-toggle.btn-jamendo {
+  color: #ffffff;
+  background-color: #572157;
+  border-color: #4a1c4a;
+}
+
+.btn-jamendo:active,
+.btn-jamendo.active,
+.open .dropdown-toggle.btn-jamendo {
+  background-image: none;
+}
