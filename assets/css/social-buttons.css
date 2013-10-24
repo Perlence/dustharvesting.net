@@ -1,7 +1,7 @@
 .btn-twitter {
   color: #ffffff;
   background-color: #1c95d0;
-  border-color: #1c95d0;
+  border-color: #0f80b8;
 }
 
 .btn-twitter:hover,
@@ -23,7 +23,7 @@
 .btn-youtube {
   color: #ffffff;
   background-color: #cc181e;
-  border-color: #cc181e;
+  border-color: #b30c12;
 }
 
 .btn-youtube:hover,
@@ -45,7 +45,7 @@
 .btn-bandcamp {
   color: #ffffff;
   background-color: #639baa;
-  border-color: #639baa;
+  border-color: #4d8391;
 }
 
 .btn-bandcamp:hover,
@@ -67,7 +67,7 @@
 .btn-jamendo {
   color: #ffffff;
   background-color: #703070;
-  border-color: #703070;
+  border-color: #572157;
 }
 
 .btn-jamendo:hover,
