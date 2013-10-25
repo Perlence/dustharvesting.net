@@ -13,8 +13,8 @@ albums:
             Sviatoslav Abakumov: guitars, bass, vocals, programming
             Jeronim Calavera: guitars
         links:
-            Jamendo: http://www.jamendo.com/en/list/a124246/unquintessence
             Bandcamp: http://dustharvesting.bandcamp.com/album/unquintessence
+            Jamendo: http://www.jamendo.com/en/list/a124246/unquintessence
         downloads:
             GP5: https://bitbucket.org/Perlence/unquintessence
         tracks:
@@ -43,8 +43,8 @@ albums:
         personnel:
             Sviatoslav Abakumov: guitar, bass, programming
         links:
-            Jamendo: http://www.jamendo.com/en/list/a53306/dlja-risovanija
             Bandcamp: http://dustharvesting.bandcamp.com/album/-
+            Jamendo: http://www.jamendo.com/en/list/a53306/dlja-risovanija
         downloads:
             GP5: http://dustharvesting.net/music/chapter5/Dust Harvesting - Dlia risovaniya-gp5.7z
             Stems: http://dustharvesting.net/music/chapter5/Dust Harvesting - Dlia risovaniya-stems.7z
@@ -64,15 +64,15 @@ albums:
     -   title: Озеро Изфикции (Instrumental)
         id: ozero-izfiktsiyi-instrumental
         description: >
-            After some time passed Dust Harvesting realized that he couldn't bare to listen to the record anymore. 
+            After some time has passed, Dust Harvesting realized that he couldn't bare to listen to the record anymore. 
             In the search of the source of irritation he found out that the lyrics give him no rest. 
             So here it is: the same vibe, feel and groove sans the voice.
         released: 2008-11-15
         personnel:
             Sviatoslav Abakumov: guitar, bass, programming
         links:
-            Jamendo: http://www.jamendo.com/en/list/a74174/ozjero-izfiktsii
             Bandcamp: http://dustharvesting.bandcamp.com/album/--2
+            Jamendo: http://www.jamendo.com/en/list/a74174/ozjero-izfiktsii
         downloads:
             GP5: http://dustharvesting.net/music/chapter4/Dust Harvesting - Ozero Izfiktsii-gp5.7z
             Stems: http://dustharvesting.net/music/chapter4/Dust Harvesting - Ozero Izfiktsii-stems.7z
@@ -93,8 +93,8 @@ albums:
         personnel:
             Sviatoslav Abakumov: guitar, bass, vocals, programming
         links:
-            Jamendo: http://www.jamendo.com/en/list/a74174/ozjero-izfiktsii
             Bandcamp: http://dustharvesting.bandcamp.com/album/--2
+            Jamendo: http://www.jamendo.com/en/list/a74174/ozjero-izfiktsii
         downloads:
             GP5: http://dustharvesting.net/music/chapter4/Dust Harvesting - Ozero Izfiktsii-gp5.7z
             Stems: http://dustharvesting.net/music/chapter4/Dust Harvesting - Ozero Izfiktsii-stems.7z
@@ -108,12 +108,15 @@ albums:
 
     -   title: Seven BSODs. Inner Oww EP
         id: seven-bsods-inner-oww
+        description: >
+            Started as a joke and an (unsuccessful) experiment in making a piece with &frac34; meter, <em>Seven BSODs. Inner Oww</em> turned out to be almost progressive sludge in the vein of Mastodon, Mose Giganticus, Melvins, Isis, yet not quite sounding like any of them.
+            Heavy and compelling, this one unveils layers with each listen.
         released: 2008-02-11
         personnel:
             Sviatoslav Abakumov: guitar, bass, vocals, programming
         links:
-            Jamendo: http://www.jamendo.com/en/list/a53304/seven-bsods.-inner-oww
             Bandcamp: http://dustharvesting.bandcamp.com/album/seven-bsods-inner-oww-ep
+            Jamendo: http://www.jamendo.com/en/list/a53304/seven-bsods.-inner-oww
         downloads:
             GP5: http://dustharvesting.net/music/chapter3/Dust Harvesting - Seven BSODs. Inner Oww-gp5.7z
         tracks:
@@ -124,12 +127,15 @@ albums:
 
     -   title: Seasons for Chaotic Contraction EP
         id: seasons-for-chaotic-contraction
+        description: >
+            This is the beginning: casual doodles made in a flash of enthusiasm, sketches and experiments in a new direction.
+            Although everything was quite raw and hectic back there, it has some of the features that soon would evolve to be defining elements of Dust Harvesting.
         released: 2007-08-16
         personnel:
             Sviatoslav Abakumov: guitar, bass, vocals, programming
         links:
-            Jamendo: http://www.jamendo.com/en/list/a53318/seasons-for-chaotic-contraction
             Bandcamp: http://dustharvesting.bandcamp.com/album/seasons-for-chaotic-contraction-ep
+            Jamendo: http://www.jamendo.com/en/list/a53318/seasons-for-chaotic-contraction
         downloads:
             GP5: http://dustharvesting.net/music/chapter1-2/Dust Harvesting - Seasons for Chaotic Contraction-gp5.7z
         tracks:
