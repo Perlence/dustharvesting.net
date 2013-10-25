@@ -9,7 +9,6 @@ import yaml.constructor
 class OrderedDictLoader(yaml.Loader):
     '''A YAML loader that loads mappings into ordered dictionaries.
     '''
-
     def __init__(self, *args, **kwargs):
         yaml.Loader.__init__(self, *args, **kwargs)
 
@@ -45,6 +44,7 @@ app = Flask(__name__)
 app.jinja_env.trim_blocks = True
 app.jinja_env.lstrip_blocks = True
 
+@app.route('/')
 @app.route('/<name>')
 def index(name='index'):
     try:
@@ -79,7 +79,7 @@ def render_all():
 
 if __name__ == '__main__':
     import sys
-    host, port = '127.0.0.1', 8000
+    host, port = '127.0.0.1', 5000
     if len(sys.argv) > 1 and sys.argv[1] == 'render':
         app.config['SERVER_NAME'] = host
         with app.app_context():

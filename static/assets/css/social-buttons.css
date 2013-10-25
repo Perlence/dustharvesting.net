@@ -85,3 +85,47 @@
 .open .dropdown-toggle.btn-jamendo {
   background-image: none;
 }
+
+.btn-outline-bandcamp {
+  color: #639baa;
+  background-color: #ffffff;
+  border-color: #4d8391;
+}
+
+.btn-outline-bandcamp:hover,
+.btn-outline-bandcamp:focus,
+.btn-outline-bandcamp:active,
+.btn-outline-bandcamp.active,
+.open .dropdown-toggle.btn-outline-bandcamp {
+  color: #4d8391;
+  background-color: #ffffff;
+  border-color: #467785;
+}
+
+.btn-outline-bandcamp:active,
+.btn-outline-bandcamp.active,
+.open .dropdown-toggle.btn-outline-bandcamp {
+  background-image: none;
+}
+
+.btn-outline-jamendo {
+  color: #703070;
+  background-color: #ffffff;
+  border-color: #572157;
+}
+
+.btn-outline-jamendo:hover,
+.btn-outline-jamendo:focus,
+.btn-outline-jamendo:active,
+.btn-outline-jamendo.active,
+.open .dropdown-toggle.btn-outline-jamendo {
+  color: #572157;
+  background-color: #ffffff;
+  border-color: #4a1c4a;
+}
+
+.btn-outline-jamendo:active,
+.btn-outline-jamendo.active,
+.open .dropdown-toggle.btn-outline-jamendo {
+  background-image: none;
+}

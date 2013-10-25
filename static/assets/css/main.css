@@ -61,3 +61,25 @@ footer {
 footer p {
   font-size: 14px;
 }
+
+.btn-outline-default {
+  color: #333333;
+  background-color: #ffffff;
+  border-color: #333333;
+}
+
+.btn-outline-default:hover,
+.btn-outline-default:focus,
+.btn-outline-default:active,
+.btn-outline-default.active,
+.open .dropdown-toggle.btn-outline-default {
+  color: #1f1f1f;
+  background-color: #ffffff;
+  border-color: #141414;
+}
+
+.btn-outline-default:active,
+.btn-outline-default.active,
+.open .dropdown-toggle.btn-outline-default {
+  background-image: none;
+}
