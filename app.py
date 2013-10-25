@@ -1,7 +1,8 @@
+import os
 import codecs
 from collections import OrderedDict
 
-import flask
+from flask import Flask, abort, render_template, url_for, current_app
 import yaml
 import yaml.constructor
 
@@ -40,22 +41,25 @@ class OrderedDictLoader(yaml.Loader):
             mapping[key] = value
         return mapping
 
-app = flask.Flask(__name__)
+app = Flask(__name__)
 app.jinja_env.trim_blocks = True
 app.jinja_env.lstrip_blocks = True
 
 @app.route('/<name>')
 def index(name='index'):
-    data = yaml.load(open(name + '.yaml'), OrderedDictLoader)
-    output = flask.render_template(name + '.html', **data)
-    with codecs.open(name + '.html', 'w', encoding='utf-8') as fp:
-        fp.write(output)
+    try:
+        data = yaml.load(open(name + '.yaml'), OrderedDictLoader)
+        output = render_template(name + '.html', **data)
+        with codecs.open(name + '.html', 'w', encoding='utf-8') as fp:
+            fp.write(output)
+    except IOError:
+        abort(404)
     return output
 
 @app.context_processor
 def helpers():
     def static(filename):
-        return flask.url_for('static', filename=filename)
+        return url_for('static', filename=filename)
 
     def format_time(time):
         return '{}:{:02}'.format(*time)
@@ -68,5 +72,17 @@ def helpers():
     
     return dict(**locals())
 
+def render_all():
+    for name in os.listdir(app.template_folder):
+        root, ext = os.path.splitext(name)
+        index(root)
+
 if __name__ == '__main__':
-    app.run('127.0.0.1', 8000, debug=True)
+    import sys
+    host, port = '127.0.0.1', 8000
+    if len(sys.argv) > 1 and sys.argv[1] == 'render':
+        app.config['SERVER_NAME'] = host
+        with app.app_context():
+            render_all()
+    else:
+        app.run(host, port, debug=True)
