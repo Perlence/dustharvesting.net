@@ -9,16 +9,16 @@
     <title>Dust Harvesting</title>
 
     <!-- Bootstrap Readable core CSS -->
-    <link href="bootstrap/css/bootstrap-readable.css" rel="stylesheet">
+    <link href="{{ static('bootstrap/css/bootstrap-readable.css') }}" rel="stylesheet">
 
     <!-- Custom styles -->
-    <link href="assets/css/social-buttons.css" rel="stylesheet">
-    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="{{ static('assets/css/social-buttons.css') }}" rel="stylesheet">
+    <link href="{{ static('assets/css/main.css') }}" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="assets/js/html5shiv.js"></script>
-      <script src="assets/js/respond.min.js"></script>
+      <script src="{{ static('assets/js/html5shiv.js') }}"></script>
+      <script src="{{ static('assets/js/respond.min.js') }}"></script>
     <![endif]-->
   </head>
 
@@ -69,12 +69,12 @@
       <div class="row">
         <div class="col-sm-6 col-md-4">
           <a data-toggle="modal" href="#{{ album.id }}-cover">
-            <img class="img-thumbnail" src="gfx/{{ album.id }}-sm.jpg" alt="{{ album.title }}"/>
+            <img class="img-thumbnail" src="{{ static('gfx/%s-sm.jpg' % album.id) }}" alt="{{ album.title }}"/>
           </a>
           <div class="modal fade" id="{{ album.id }}-cover" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog text-center">
-              <a href="gfx/{{ album.id }}.jpg">
-                <img class="img-thumbnail" src="gfx/{{ album.id }}.jpg" alt="{{ album.title }}"/>
+              <a href="{{ static('gfx/%s.jpg' % album.id) }}">
+                <img class="img-thumbnail" src="{{ static('gfx/%s.jpg' % album.id) }}" alt="{{ album.title }}"/>
               </a>
             </div>
           </div>
@@ -113,9 +113,9 @@
           <h4 class="tracklist">Track listing</h4>
           <ol>
             {% for name, length in album.tracks.items() %}
-            <li>{{ name }}<span class="time text-muted">{{ length|timeformat }}</span></li>
+            <li>{{ name }}<span class="time text-muted">{{ format_time(length) }}</span></li>
             {% endfor %}
-            <em>Total length</em><span class="time text-muted">{{ helpers.album_length(album)|timeformat }}</span>
+            <em>Total length</em><span class="time text-muted">{{ album_length(album) }}</span>
           </ol>
         </div>
       </div>
@@ -129,8 +129,8 @@
     <!-- Bootstrap core JavaScript
          ========================= -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/jquery.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="{{ static('assets/js/jquery.js') }}"></script>
+    <script src="{{ static('bootstrap/js/bootstrap.min.js') }}"></script>
+    <script src="{{ static('assets/js/main.js') }}"></script>
   </body>
 </html>
