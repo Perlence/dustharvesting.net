@@ -68,16 +68,9 @@
       <h3 id="{{ album.id }}">{{ album.title }}</h3>
       <div class="row">
         <div class="col-sm-6 col-md-4">
-          <a data-toggle="modal" href="#{{ album.id }}-cover">
+          <a href="static/gfx/{{ album.id }}.jpg">
             <img class="img-thumbnail" src="static/gfx/{{ album.id }}-sm.jpg" alt="{{ album.title }}"/>
           </a>
-          <div class="modal fade" id="{{ album.id }}-cover" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog text-center">
-              <a href="static/gfx/{{ album.id }}.jpg">
-                <img class="img-thumbnail" src="static/gfx/{{ album.id }}.jpg" alt="{{ album.title }}"/>
-              </a>
-            </div>
-          </div>
           <ul class="download list-inline">
             {% for text, link in album.links.items() %}
             <li><a href="{{ link }}" class="btn btn-sm btn-{{ text|lower }}">{{ text }}</a></li>
