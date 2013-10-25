@@ -39,7 +39,7 @@
       </div>
     </header>
 
-    <nav class="navbar navbar-default" role="navigation">
+    {# <nav class="navbar navbar-default" role="navigation">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -61,7 +61,7 @@
           </ul>
         </div><!-- /.navbar-collapse -->
       </div>
-    </nav>
+    </nav> #}
 
     <div class="container">
       {% for album in albums %}
@@ -123,8 +123,15 @@
       <hr/>
       {% endif %}
       {% endfor %}
-
     </div><!-- /.container -->
+
+    <footer>
+      <div class="container">
+        <p class="text-muted">
+          Cheers! We can be reached at <a href="mailto:dust.harvesting@gmail.com">dust.harvesting@gmail.com</a>. Thanks and have fun.
+        </p>
+      </div>
+    </footer>
 
     <!-- Bootstrap core JavaScript
          ========================= -->
