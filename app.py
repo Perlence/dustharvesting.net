@@ -3,6 +3,7 @@ import codecs
 from collections import OrderedDict
 
 from flask import Flask, abort, render_template, url_for, current_app
+from flask_frozen import Freezer
 import yaml
 import yaml.constructor
 
@@ -50,17 +51,12 @@ def index(name='index'):
     try:
         data = yaml.load(open(name + '.yaml'), OrderedDictLoader)
         output = render_template(name + '.html', **data)
-        with codecs.open(name + '.html', 'w', encoding='utf-8') as fp:
-            fp.write(output)
+        return output
     except IOError:
         abort(404)
-    return output
 
 @app.context_processor
 def helpers():
-    def static(filename):
-        return url_for('static', filename=filename)
-
     def format_time(time):
         return '{}:{:02}'.format(*time)
 
@@ -80,9 +76,8 @@ def render_all():
 if __name__ == '__main__':
     import sys
     host, port = '127.0.0.1', 5000
-    if len(sys.argv) > 1 and sys.argv[1] == 'render':
-        app.config['SERVER_NAME'] = host
-        with app.app_context():
-            render_all()
+    if len(sys.argv) > 1 and sys.argv[1] == 'freeze':
+        freezer = Freezer(app)
+        freezer.freeze()
     else:
         app.run(host, port, debug=True)
