@@ -2,10 +2,9 @@ import os
 import codecs
 from collections import OrderedDict
 
-from flask import Flask, abort, render_template, url_for, current_app
-from flask_frozen import Freezer
 import yaml
 import yaml.constructor
+from flask import Flask, abort, render_template, url_for, current_app
 
 class OrderedDictLoader(yaml.Loader):
     '''A YAML loader that loads mappings into ordered dictionaries.
@@ -68,15 +67,11 @@ def helpers():
     
     return dict(**locals())
 
-def render_all():
-    for name in os.listdir(app.template_folder):
-        root, ext = os.path.splitext(name)
-        index(root)
-
 if __name__ == '__main__':
     import sys
     host, port = '127.0.0.1', 5000
     if len(sys.argv) > 1 and sys.argv[1] == 'freeze':
+        from flask_frozen import Freezer
         freezer = Freezer(app)
         freezer.freeze()
     else:
