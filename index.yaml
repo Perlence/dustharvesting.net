@@ -1,8 +1,8 @@
 ---
 profile_links:
     Twitter: https://twitter.com/dustharvesting
-    YouTube: http://youtube.com/user/dustharvesting
     Bandcamp: http://dustharvesting.bandcamp.com
+    YouTube: http://youtube.com/user/dustharvesting
     Jamendo: http://www.jamendo.com/en/artist/339709/dust-harvesting
 
 albums:
@@ -14,6 +14,7 @@ albums:
             Jeronim Calavera: guitars
         links:
             Bandcamp: http://dustharvesting.bandcamp.com/album/unquintessence
+            YouTube: http://www.youtube.com/playlist?list=PLWxXKzy-Dcye-w5cnUTmWxUweVqCjBhdT
             Jamendo: http://www.jamendo.com/en/list/a124246/unquintessence
         downloads:
             GP5: https://bitbucket.org/Perlence/unquintessence
@@ -44,6 +45,7 @@ albums:
             Sviatoslav Abakumov: guitar, bass, programming
         links:
             Bandcamp: http://dustharvesting.bandcamp.com/album/-
+            YouTube: http://www.youtube.com/playlist?list=PLWxXKzy-Dcyfa0I6Ng0zbSsIK-u3eL5Y6
             Jamendo: http://www.jamendo.com/en/list/a53306/dlja-risovanija
         downloads:
             GP5: http://dustharvesting.net/music/chapter5/Dust Harvesting - Dlia risovaniya-gp5.7z
@@ -72,6 +74,7 @@ albums:
             Sviatoslav Abakumov: guitar, bass, programming
         links:
             Bandcamp: http://dustharvesting.bandcamp.com/album/--2
+            YouTube: http://www.youtube.com/playlist?list=PLWxXKzy-DcycjBfE39VsJnqNGJTrTadsX
             Jamendo: http://www.jamendo.com/en/list/a74174/ozjero-izfiktsii
         downloads:
             GP5: http://dustharvesting.net/music/chapter4/Dust Harvesting - Ozero Izfiktsii-gp5.7z
@@ -94,6 +97,7 @@ albums:
             Sviatoslav Abakumov: guitar, bass, vocals, programming
         links:
             Bandcamp: http://dustharvesting.bandcamp.com/album/--2
+            YouTube: http://www.youtube.com/playlist?list=PLWxXKzy-DcyfpZ0P6F8xp3TMHXu7mtX4t
             Jamendo: http://www.jamendo.com/en/list/a74174/ozjero-izfiktsii
         downloads:
             GP5: http://dustharvesting.net/music/chapter4/Dust Harvesting - Ozero Izfiktsii-gp5.7z
@@ -116,6 +120,7 @@ albums:
             Sviatoslav Abakumov: guitar, bass, vocals, programming
         links:
             Bandcamp: http://dustharvesting.bandcamp.com/album/seven-bsods-inner-oww-ep
+            YouTube: http://www.youtube.com/playlist?list=PLWxXKzy-DcyeBMmzY3TXq_PsJ9i_Ff0IF
             Jamendo: http://www.jamendo.com/en/list/a53304/seven-bsods.-inner-oww
         downloads:
             GP5: http://dustharvesting.net/music/chapter3/Dust Harvesting - Seven BSODs. Inner Oww-gp5.7z
