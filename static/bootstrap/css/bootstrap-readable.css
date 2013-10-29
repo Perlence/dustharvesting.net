@@ -1,4 +1,4 @@
-@import url("//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic");
+@import url("//fonts.googleapis.com/css?family=PT+Serif:400,400italic&subset=latin,cyrillic");
 
 /*!
  * Bootstrap v3.0.0
@@ -302,7 +302,7 @@ html {
 }
 
 body {
-  font-family: "Lora", Georgia, "Times New Roman", Times, serif;
+  font-family: "PT Serif", Georgia, "Times New Roman", Times, serif;
   font-size: 17px;
   line-height: 1.428571429;
   color: #333333;
@@ -464,7 +464,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Lora", Georgia, "Times New Roman", Times, serif;
+  font-family: "PT Serif", Georgia, "Times New Roman", Times, serif;
   font-weight: 500;
   line-height: 1.1;
 }
