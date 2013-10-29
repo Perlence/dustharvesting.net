@@ -17,6 +17,10 @@ ul, ol {
   text-align: center;
 }
 
+.nav li {
+  padding: 5px;
+}
+
 .nav a img {
   width: 100px;
   height: 100px;
