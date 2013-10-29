@@ -26,9 +26,9 @@ ul, ol {
 
 .nav a img:hover,
 .nav a img:focus {
-  -webkit-box-shadow: 0px 0px 0px 4px #428bca;
-     -moz-box-shadow: 0px 0px 0px 4px #428bca;
-          box-shadow: 0px 0px 0px 4px #428bca;
+  -webkit-box-shadow: 0px 0px 4px 4px #428bca;
+     -moz-box-shadow: 0px 0px 4px 4px #428bca;
+          box-shadow: 0px 0px 4px 4px #428bca;
 }
 
 .tracklist {
