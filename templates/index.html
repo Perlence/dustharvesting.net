@@ -8,10 +8,7 @@
 
     <title>Dust Harvesting</title>
 
-    <!-- Bootstrap Readable core CSS -->
     <link href="static/bootstrap/css/bootstrap-readable.css" rel="stylesheet"/>
-
-    <!-- Custom styles -->
     <link href="static/assets/css/social-buttons.css" rel="stylesheet"/>
     <link href="static/assets/css/main.css" rel="stylesheet"/>
 
@@ -31,113 +28,79 @@
           Progressive rock duo founded by Sviatoslav Abakumov in 2007 as one-man band, meeting then a second member.
           Through mixture of different inspiration sources and common love for Isis, The Mars Volta, Tool, Pain of Salvation and others, band creates emotional, whereas complex in their compositional structure songs, ranging from groovy crushing riffs to jazzesque solos through the whole discography.
         </p>
-        <div class="pull-right text-right">
-          {% for text, link in profile_links.items() %}
-            <a class="btn btn-lg btn-{{ text|lower }}" href="{{ link }}">{{ text }}</a>
+        <nav class="nav">
+          <ul class="list-inline">
+          {% for album in albums|reverse %}
+            <li class='text-center'>
+              <a href="#{{ album.id }}">
+                <img class="img-circle"
+                     src="static/gfx/{{ album.id }}-sm.jpg" 
+                     alt="{{ album.title }} cover"
+                     title="{{ album.title }}"/>
+              </a>
+            </li>
           {% endfor %}
-        </div>
+          </ul>
+        </nav>
       </div>
     </header>
 
-    {# <nav class="navbar navbar-default" role="navigation">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Discography</a>
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="container">
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-          <ul class="nav navbar-nav">
-            {% for album in albums %}
-            <li><a href="#{{ album.id }}">{{ album.title }}</a></li>
-            {% endfor %}
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div>
-    </nav> #}
-
     <div class="container">
-      {% for album in albums %}
-        <h3 id="{{ album.id }}">{{ album.title }}</h3>
-        <div class="row">
-          <div class="col-sm-6 col-md-4">
-            <a href="static/gfx/{{ album.id }}.jpg">
-              <img class="img-thumbnail" src="static/gfx/{{ album.id }}-sm.jpg" alt="{{ album.title }}"/>
-            </a>
-            {# <ul class="download list-inline">
-              {% for text, link in album.links.items() %}
-                <li><a href="{{ link }}" class="btn btn-sm btn-{{ text|lower }}">{{ text }}</a></li>
+    {% for album in albums %}
+      <h3 id="{{ album.id }}">{{ album.title }}</h3>
+      <div class="row">
+        <div class="col-sm-6 col-md-4">
+          <a href="static/gfx/{{ album.id }}.jpg">
+            <img class="img-thumbnail" src="static/gfx/{{ album.id }}-sm.jpg" alt="{{ album.title }}"/>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-8">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              {% if album.description %}
+              <p>
+                {{ album.description|safe }}
+              </p>
+              {% endif %}
+              <p>
+                <em>Released {{ album.released.strftime('%d %B %Y') }}</em>
+              </p>
+              <p>
+                Visit at {{ enumerate_links(album.links)|safe }}<br/>
+                Download {{ enumerate_links(album.downloads, lower=true)|safe }}
+              </p>
+              <h4>Personnel</h4>
+              <ul>
+              {% for name, occupation in album.personnel.items() %}
+                <li>{{ name }} − {{ occupation }}</li>
               {% endfor %}
-              <li class="dropdown">
-                <a href="#" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
-                  Download <span class="caret"></span>
-                </a>
-                <ul class="dropdown-menu" role="menu">
-                  {% for text, link in album.downloads.items() %}
-                    <li><a href="{{ link }}">{{ text }}</a></li>                    
-                  {% endfor %}
-                </ul>
-              </li>
-            </ul> #}
-          </div>
-          <div class="col-sm-6 col-md-8">
-            <div class="row">
-              <div class="col-sm-12 col-md-6">
-                <p>
-                  {{ album.description|safe }}
-                </p>
-                <p>
-                  <em>Released {{ album.released.strftime('%d %B %Y') }}</em>
-                </p>
-                <p>
-                  Visit at {% for text, link in album.links.items() -%}
-                    <a href="{{ link }}">{{ text }}</a>
-                    {%- if not loop.last %}, {% endif -%}
-                  {% endfor %}
-
-                  <br/>
-                  Download {% for text, link in album.downloads.items() -%}
-                    <a href="{{ link }}">{{ text|lower }}</a>
-                    {%- if not loop.last %}, {% endif -%}
-                  {% endfor %}
-
-                </p>
-                <h4>Personnel</h4>
-                <ul>
-                  {% for name, occupation in album.personnel.items() %}
-                    <li>{{ name }} − {{ occupation }}</li>
-                  {% endfor %}
-                </ul>
-              </div>
-              <div class="col-sm-12 col-md-6">
-                <h4 class="tracklist">Track listing</h4>
-                <ol>
-                  {% for name, length in album.tracks.items() %}
-                    <li>{{ name }}<span class="time text-muted">{{ format_time(length) }}</span></li>
-                  {% endfor %}
-                  <em>Total length</em><span class="time text-muted">{{ album_length(album) }}</span>
-                </ol>
-              </div>
+              </ul>
+            </div>
+            <div class="col-sm-12 col-md-6">
+              <h4 class="tracklist">Track listing</h4>
+              <ol>
+              {% for name, length in album.tracks.items() %}
+                <li>{{ name }}<span class="time text-muted">{{ format_time(length) }}</span></li>
+              {% endfor %}
+                <em>Total length</em><span class="time text-muted">{{ album_length(album) }}</span>
+              </ol>
             </div>
           </div>
         </div>
-        {% if not loop.last %}
-          <hr/>
-        {% endif %}
-      {% endfor %}
+      </div>
+      {% if not loop.last %}
+      <hr/>
+      {% endif %}
+    {% endfor %}
     </div><!-- /.container -->
 
     <footer>
       <div class="container">
         <p class="text-muted">
-          Cheers! We can be reached at <a href="mailto:dust.harvesting@gmail.com">dust.harvesting@gmail.com</a>. Thanks and have fun.
+          Cheers!
+          Check out our accounts at {{ enumerate_links(profile_links)|safe }}.<br/>
+          We can be reached at <a href="mailto:dust.harvesting@gmail.com">dust.harvesting@gmail.com</a>.
+          Thanks and have fun.
         </p>
       </div>
     </footer>
@@ -147,6 +110,5 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="static/assets/js/jquery.js"></script>
     <script src="static/bootstrap/js/bootstrap.min.js"></script>
-    <script src="static/assets/js/main.js"></script>
   </body>
 </html>

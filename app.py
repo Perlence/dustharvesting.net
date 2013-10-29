@@ -64,15 +64,22 @@ def helpers():
         minutes, seconds = zip(*lengths)
         full_length = sum(minutes) * 60 + sum(seconds)
         return format_time((full_length // 60, full_length % 60))
+
+    def enumerate_links(links, lower=False):
+        def html_link(args):
+            text, link = args
+            if lower:
+                text = text.lower()
+            return '<a href="{}">{}</a>'.format(link, text)
+        return ', '.join(map(html_link, links.items()))
     
     return dict(**locals())
 
 if __name__ == '__main__':
     import sys
-    host, port = '127.0.0.1', 5000
     if len(sys.argv) > 1 and sys.argv[1] == 'freeze':
         from flask_frozen import Freezer
         freezer = Freezer(app)
         freezer.freeze()
     else:
-        app.run(host, port, debug=True)
+        app.run(port=5000, debug=True)
