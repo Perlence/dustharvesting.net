@@ -45,54 +45,56 @@
       </div>
     </header>
 
-    <div class="container">
-    {% for album in albums %}
-      <h3 id="{{ album.id }}">{{ album.title }}</h3>
-      <div class="row">
-        <div class="col-sm-6 col-md-4">
-          <a href="static/gfx/{{ album.id }}.jpg">
-            <img class="img-thumbnail" src="static/gfx/{{ album.id }}-sm.jpg" alt="{{ album.title }}"/>
-          </a>
-        </div>
-        <div class="col-sm-6 col-md-8">
-          <div class="row">
-            <div class="col-sm-12 col-md-6">
-              {% if album.description %}
-              <p>
-                {{ album.description|safe }}
-              </p>
-              {% endif %}
-              <p>
-                <em>Released {{ album.released.strftime('%d %B %Y') }}</em>
-              </p>
-              <p>
-                Visit at {{ enumerate_links(album.links)|safe }}<br/>
-                Download {{ enumerate_links(album.downloads, lower=true)|safe }}
-              </p>
-              <h4>Personnel</h4>
-              <ul>
-              {% for name, occupation in album.personnel.items() %}
-                <li>{{ name }} − {{ occupation }}</li>
-              {% endfor %}
-              </ul>
-            </div>
-            <div class="col-sm-12 col-md-6">
-              <h4 class="tracklist">Track listing</h4>
-              <ol>
-              {% for name, length in album.tracks.items() %}
-                <li>{{ name }}<span class="time text-muted">{{ format_time(length) }}</span></li>
-              {% endfor %}
-                <em>Total length</em><span class="time text-muted">{{ album_length(album) }}</span>
-              </ol>
+    <main>
+      <div class="container">
+      {% for album in albums %}
+        <h3 id="{{ album.id }}">{{ album.title }}</h3>
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <a href="static/gfx/{{ album.id }}.jpg">
+              <img class="img-thumbnail" src="static/gfx/{{ album.id }}-sm.jpg" alt="{{ album.title }}"/>
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="row">
+              <div class="col-sm-12 col-md-6">
+                {% if album.description %}
+                <p>
+                  {{ album.description|safe }}
+                </p>
+                {% endif %}
+                <p>
+                  <em>Released {{ album.released.strftime('%d %B %Y') }}</em>
+                </p>
+                <p>
+                  Visit at {{ enumerate_links(album.links)|safe }}<br/>
+                  Download {{ enumerate_links(album.downloads, lower=true)|safe }}
+                </p>
+                <h4>Personnel</h4>
+                <ul>
+                {% for name, occupation in album.personnel.items() %}
+                  <li>{{ name }} − {{ occupation }}</li>
+                {% endfor %}
+                </ul>
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <h4 class="tracklist">Track listing</h4>
+                <ol>
+                {% for name, length in album.tracks.items() %}
+                  <li>{{ name }}<span class="time text-muted">{{ format_time(length) }}</span></li>
+                {% endfor %}
+                  <em>Total length</em><span class="time text-muted">{{ album_length(album) }}</span>
+                </ol>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      {% if not loop.last %}
-      <hr/>
-      {% endif %}
-    {% endfor %}
-    </div><!-- /.container -->
+        {% if not loop.last %}
+        <hr/>
+        {% endif %}
+      {% endfor %}
+      </div><!-- /.container -->
+    </main>
 
     <footer>
       <div class="container">
