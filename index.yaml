@@ -6,6 +6,35 @@ profile_links:
     Jamendo: http://www.jamendo.com/en/artist/339709/dust-harvesting
 
 albums:
+    -   title: Unquintessence (Instrumental)
+        id: unquintessence-instrumental
+        released: 2013-11-03
+        personnel:
+            Sviatoslav Abakumov: guitars, bass, programming
+            Jeronim Calavera: guitars
+        links:
+            Bandcamp: http://dustharvesting.bandcamp.com/album/unquintessence-instrumental
+            # YouTube: http://www.youtube.com/playlist?list=PLWxXKzy-Dcye-w5cnUTmWxUweVqCjBhdT
+            Jamendo: http://www.jamendo.com/en/list/a128274/unquintessence-instrumental
+        downloads:
+            GP5: https://bitbucket.org/Perlence/unquintessence
+        tracks:
+            Stasis: [2,30]
+            The Greatest Time: [4,47]
+            Confluent: [6,36]
+            Low Level: [7,1]
+            Pits: [6,15]
+            Council: [5,24]
+            Wailing Mourn: [3,39]
+            Haunted: [5,22]
+            Ego Anthem: [3,36]
+            Vulture, Warming Throne: [3,54]
+            Golden Bridges: [7,37]
+            Glasshouse: [3,25]
+            Lone Engineer: [4,44]
+            Year of Empty Rooms: [3,35]
+            Reaping Vestiges: [3,57]
+
     -   title: Unquintessence
         id: unquintessence
         released: 2013-07-20
