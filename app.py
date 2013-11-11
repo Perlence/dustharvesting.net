@@ -75,11 +75,14 @@ def helpers():
     
     return dict(**locals())
 
+def freeze():
+    from flask_frozen import Freezer
+    freezer = Freezer(app)
+    freezer.freeze()
+
 if __name__ == '__main__':
     import sys
     if len(sys.argv) > 1 and sys.argv[1] == 'freeze':
-        from flask_frozen import Freezer
-        freezer = Freezer(app)
-        freezer.freeze()
+        freeze()
     else:
         app.run(port=5000, debug=True)
