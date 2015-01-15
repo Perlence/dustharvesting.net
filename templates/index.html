@@ -26,11 +26,13 @@
         <p>
           Progressive rock duo founded by Sviatoslav Abakumov in 2007 as one-man band, meeting then a second member.
           Through mixture of different inspiration sources and common love for Isis, The Mars Volta, Tool, Pain of Salvation and others, band creates emotional, whereas complex in their compositional structure songs, ranging from groovy crushing riffs to jazzesque solos through the whole discography.
+          <span class="social-buttons">
           {% for text, link in profile_links.items() %}
             <a href="{{ link }}" class="btn btn-{{ text|lower }} btn-xs">
               <i class="icon-{{ text|lower }}"></i>
             </a>
           {% endfor %}
+          </span>
         </p>
         <nav class="nav">
           <ul class="list-inline">

@@ -71,6 +71,10 @@ ul, ol {
   font-size: 19.549999999999997px;
 }
 
+.social-buttons {
+  white-space: nowrap;
+}
+
 @media screen and (min-width: 768px) {
   .jumbotron {
     padding: 30px;
