@@ -40,7 +40,7 @@ class OrderedDictLoader(yaml.Loader):
             key = self.construct_object(key_node, deep=deep)
             try:
                 hash(key)
-            except TypeError, exc:
+            except TypeError as exc:
                 raise yaml.constructor.ConstructorError(
                     'while constructing a mapping', node.start_mark,
                     'found unacceptable key (%s)' % exc, key_node.start_mark)
@@ -53,7 +53,8 @@ class OrderedDictLoader(yaml.Loader):
 @app.route('/<name>')
 def index(name='index'):
     try:
-        data = yaml.load(open(name + '.yaml'), OrderedDictLoader)
+        with open(name + '.yaml', 'r', encoding='utf-8') as fp:
+            data = yaml.load(fp, OrderedDictLoader)
     except IOError:
         abort(404)
     return render_template(name + '.html', **data)
