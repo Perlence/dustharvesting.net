@@ -1,9 +1,9 @@
 ---
 profile_links:
     Twitter: https://twitter.com/dustharvesting
-    Bandcamp: http://dustharvesting.bandcamp.com
-    YouTube: http://youtube.com/user/dustharvesting
-    Jamendo: http://www.jamendo.com/en/artist/339709/dust-harvesting
+    Bandcamp: https://dustharvesting.bandcamp.com
+    YouTube: https://youtube.com/user/dustharvesting
+    Jamendo: https://www.jamendo.com/en/artist/339709/dust-harvesting
 
 albums:
     -   title: Unquintessence (Instrumental)
@@ -14,9 +14,9 @@ albums:
             Jeronim Calavera: guitars
             Karina Makhmudova: photography
         links:
-            Bandcamp: http://dustharvesting.bandcamp.com/album/unquintessence-instrumental
-            YouTube: http://www.youtube.com/playlist?list=PLWxXKzy-DcyfcaFn_s6-nLDc44NuNRynC
-            Jamendo: http://www.jamendo.com/album/128274
+            Bandcamp: https://dustharvesting.bandcamp.com/album/unquintessence-instrumental
+            YouTube: https://www.youtube.com/playlist?list=PLWxXKzy-DcyfcaFn_s6-nLDc44NuNRynC
+            Jamendo: https://www.jamendo.com/album/128274
         downloads:
             GP5: https://github.com/Perlence/unquintessence
         tracks:
@@ -45,9 +45,9 @@ albums:
             Phil Roeder: photography
             Dana Rusu: photography
         links:
-            Bandcamp: http://dustharvesting.bandcamp.com/album/unquintessence
-            YouTube: http://www.youtube.com/playlist?list=PLWxXKzy-Dcye-w5cnUTmWxUweVqCjBhdT
-            Jamendo: http://www.jamendo.com/album/124246
+            Bandcamp: https://dustharvesting.bandcamp.com/album/unquintessence
+            YouTube: https://www.youtube.com/playlist?list=PLWxXKzy-Dcye-w5cnUTmWxUweVqCjBhdT
+            Jamendo: https://www.jamendo.com/album/124246
         downloads:
             GP5: https://github.com/Perlence/unquintessence
         tracks:
@@ -77,9 +77,9 @@ albums:
             Sviatoslav Abakumov: guitar, bass, programming
             Jeronim Calavera: photography
         links:
-            Bandcamp: http://dustharvesting.bandcamp.com/album/-
-            YouTube: http://www.youtube.com/playlist?list=PLWxXKzy-Dcyfa0I6Ng0zbSsIK-u3eL5Y6
-            Jamendo: http://www.jamendo.com/album/53306
+            Bandcamp: https://dustharvesting.bandcamp.com/album/-
+            YouTube: https://www.youtube.com/playlist?list=PLWxXKzy-Dcyfa0I6Ng0zbSsIK-u3eL5Y6
+            Jamendo: https://www.jamendo.com/album/53306
         downloads:
             GP5: http://dustharvesting.net/music/chapter5/Dust Harvesting - Dlia risovaniya-gp5.7z
             Stems: http://dustharvesting.net/music/chapter5/Dust Harvesting - Dlia risovaniya-stems.7z
@@ -106,10 +106,10 @@ albums:
         personnel:
             Sviatoslav Abakumov: guitar, bass, programming, photography
         links:
-            Bandcamp: http://dustharvesting.bandcamp.com/album/--2
-            YouTube: http://www.youtube.com/playlist?list=PLWxXKzy-DcycjBfE39VsJnqNGJTrTadsX
-            Jamendo: http://www.jamendo.com/album/128085
-            # Jamendo: http://artists.jamendo.com/album/128085
+            Bandcamp: https://dustharvesting.bandcamp.com/album/--2
+            YouTube: https://www.youtube.com/playlist?list=PLWxXKzy-DcycjBfE39VsJnqNGJTrTadsX
+            Jamendo: https://www.jamendo.com/album/128085
+            # Jamendo: https://artists.jamendo.com/album/128085
         downloads:
             GP5: http://dustharvesting.net/music/chapter4/Dust Harvesting - Ozero Izfiktsiyi-gp5.7z
             Stems: http://dustharvesting.net/music/chapter4/Dust Harvesting - Ozero Izfiktsiyi-stems.7z
@@ -130,9 +130,9 @@ albums:
         personnel:
             Sviatoslav Abakumov: guitar, bass, vocals, programming, photography
         links:
-            Bandcamp: http://dustharvesting.bandcamp.com/album/--2
-            YouTube: http://www.youtube.com/playlist?list=PLWxXKzy-DcyfpZ0P6F8xp3TMHXu7mtX4t
-            Jamendo: http://www.jamendo.com/album/74174
+            Bandcamp: https://dustharvesting.bandcamp.com/album/--2
+            YouTube: https://www.youtube.com/playlist?list=PLWxXKzy-DcyfpZ0P6F8xp3TMHXu7mtX4t
+            Jamendo: https://www.jamendo.com/album/74174
         downloads:
             GP5: http://dustharvesting.net/music/chapter4/Dust Harvesting - Ozero Izfiktsiyi-gp5.7z
             Stems: http://dustharvesting.net/music/chapter4/Dust Harvesting - Ozero Izfiktsiyi-stems.7z
@@ -154,9 +154,9 @@ albums:
             Sviatoslav Abakumov: guitar, bass, vocals, programming
             Jeronim Calavera: photography
         links:
-            Bandcamp: http://dustharvesting.bandcamp.com/album/seven-bsods-inner-oww-ep
-            YouTube: http://www.youtube.com/playlist?list=PLWxXKzy-DcyeBMmzY3TXq_PsJ9i_Ff0IF
-            Jamendo: http://www.jamendo.com/album/53304
+            Bandcamp: https://dustharvesting.bandcamp.com/album/seven-bsods-inner-oww-ep
+            YouTube: https://www.youtube.com/playlist?list=PLWxXKzy-DcyeBMmzY3TXq_PsJ9i_Ff0IF
+            Jamendo: https://www.jamendo.com/album/53304
         downloads:
             GP5: http://dustharvesting.net/music/chapter3/Dust Harvesting - Seven BSODs. Inner Oww-gp5.7z
         tracks:
@@ -174,8 +174,8 @@ albums:
         personnel:
             Sviatoslav Abakumov: guitar, bass, vocals, programming, photography
         links:
-            Bandcamp: http://dustharvesting.bandcamp.com/album/seasons-for-chaotic-contraction-ep
-            Jamendo: http://www.jamendo.com/album/53318
+            Bandcamp: https://dustharvesting.bandcamp.com/album/seasons-for-chaotic-contraction-ep
+            Jamendo: https://www.jamendo.com/album/53318
         downloads:
             GP5: http://dustharvesting.net/music/chapter1-2/Dust Harvesting - Seasons for Chaotic Contraction-gp5.7z
         tracks:
