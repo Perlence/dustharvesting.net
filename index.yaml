@@ -106,7 +106,7 @@ albums:
         personnel:
             Sviatoslav Abakumov: guitar, bass, programming, photography
         links:
-            Bandcamp: https://dustharvesting.bandcamp.com/album/--2
+            Bandcamp: https://dustharvesting.bandcamp.com/album/instrumental
             YouTube: https://www.youtube.com/playlist?list=PLWxXKzy-DcycjBfE39VsJnqNGJTrTadsX
             Jamendo: https://www.jamendo.com/album/128085
             # Jamendo: https://artists.jamendo.com/album/128085
@@ -144,7 +144,7 @@ albums:
             Адские бананы: [10,26]
             Послевкусье: [1,45]
 
-    -   title: Seven BSODs. Inner Oww EP
+    -   title: Seven BSODs. Inner Oww
         id: seven-bsods-inner-oww
         description: >
             Started as a joke and an (unsuccessful) experiment in making a piece with ¾ meter, <em>Seven BSODs. Inner Oww</em> turned out to be almost progressive sludge in the vein of Mastodon, Mose Giganticus, Melvins, Isis, yet not quite sounding like any of them.
@@ -154,7 +154,7 @@ albums:
             Sviatoslav Abakumov: guitar, bass, vocals, programming
             Jeronim Calavera: photography
         links:
-            Bandcamp: https://dustharvesting.bandcamp.com/album/seven-bsods-inner-oww-ep
+            Bandcamp: https://dustharvesting.bandcamp.com/album/seven-bsods-inner-oww
             YouTube: https://www.youtube.com/playlist?list=PLWxXKzy-DcyeBMmzY3TXq_PsJ9i_Ff0IF
             Jamendo: https://www.jamendo.com/album/53304
         downloads:
@@ -165,7 +165,7 @@ albums:
             Eleven Beasts: [3,2]
             To Little Pine: [2,11]
 
-    -   title: Seasons for Chaotic Contraction EP
+    -   title: Seasons for Chaotic Contraction
         id: seasons-for-chaotic-contraction
         description: >
             This is the beginning: casual doodles made in a flash of enthusiasm, sketches and experiments in a new direction.
@@ -174,7 +174,7 @@ albums:
         personnel:
             Sviatoslav Abakumov: guitar, bass, vocals, programming, photography
         links:
-            Bandcamp: https://dustharvesting.bandcamp.com/album/seasons-for-chaotic-contraction-ep
+            Bandcamp: https://dustharvesting.bandcamp.com/album/seasons-for-chaotic-contraction
             Jamendo: https://www.jamendo.com/album/53318
         downloads:
             GP5: http://dustharvesting.net/music/chapter1-2/Dust Harvesting - Seasons for Chaotic Contraction-gp5.7z
