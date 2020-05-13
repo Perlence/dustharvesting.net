@@ -40,7 +40,7 @@
             <li>
               <a href="#{{ album.id }}">
                 <img class="img-circle"
-                     src="static/gfx/{{ album.id }}-sm.jpg" 
+                     src="static/gfx/{{ album.id }}-sm.jpg"
                      alt="{{ album.title }} cover"
                      title="{{ album.title }}"/>
               </a>
@@ -73,7 +73,7 @@
                   <em>Released {{ album.released.strftime('%d %B %Y') }}</em>
                 </p>
                 <p>
-                  Visit at {{ enumerate_links(album.links)|safe }}<br/>
+                  Listen on {{ enumerate_links(album.links)|safe }}<br/>
                   Download {{ enumerate_links(album.downloads, lower=true)|safe }}
                 </p>
                 <h4>Personnel</h4>
