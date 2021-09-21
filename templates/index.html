@@ -47,10 +47,12 @@
           {% for album in albums|reverse %}
             <li>
               <a href="#{{ album.id }}">
-                <img class="img-circle"
-                     src="static/gfx/{{ album.id }}-sm.jpg"
-                     alt="{{ album.title }} cover"
-                     title="{{ album.title }}"/>
+                <img
+                  class="img-circle"
+                  src="static/gfx/{{ album.id }}-350w.jpg"
+                  alt="{{ album.title }} cover"
+                  title="{{ album.title }}"
+                />
               </a>
             </li>
           {% endfor %}
@@ -66,7 +68,13 @@
         <div class="row">
           <div class="col-sm-6 col-md-4">
             <a href="static/gfx/{{ album.id }}.jpg">
-              <img class="img-thumbnail" src="static/gfx/{{ album.id }}-sm.jpg" alt="{{ album.title }}"/>
+              <img
+                class="img-thumbnail"
+                srcset="static/gfx/{{ album.id }}-350w.jpg,
+                        static/gfx/{{ album.id }}-700w.jpg 2x"
+                src="static/gfx/{{ album.id }}-350w.jpg"
+                alt="{{ album.title }}"
+              />
             </a>
           </div>
           <div class="col-sm-6 col-md-8">
