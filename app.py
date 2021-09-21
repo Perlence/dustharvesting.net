@@ -30,7 +30,8 @@ def helpers():
         lengths = album['tracks'].values()
         minutes, seconds = zip(*lengths)
         full_length = sum(minutes) * 60 + sum(seconds)
-        return format_time((full_length // 60, full_length % 60))
+        hours, minutes = divmod(full_length, 60)
+        return format_time((hours, minutes))
 
     def enumerate_links(links, lower=False):
         def html_link(args):
