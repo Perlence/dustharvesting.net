@@ -86,7 +86,7 @@
                 </p>
                 {% endif %}
                 <p>
-                  <em>Released {{ album.released.strftime('%d %B %Y') }}</em>
+                  <em>Released {{ album.released.strftime('%B %-d, %Y') }}</em>
                 </p>
                 <p>
                   Listen on {{ enumerate_links(album.links)|safe }}<br>
